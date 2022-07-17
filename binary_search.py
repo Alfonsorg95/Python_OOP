@@ -13,9 +13,8 @@ def binary_search(list, beginning, end, objective):
     else:
         return binary_search(list, beginning, mid - 1, objective)
 
+def run():  
 
-
-if __name__ == '__main__':
     list_size = int(input('Set the list size: '))
     objective = int(input("Which number you want to find? "))
 
@@ -25,3 +24,7 @@ if __name__ == '__main__':
 
     print(list)
     print(f'The element {objective} {"is" if match else "is not"} in the list')
+
+if __name__ == '__main__':
+    run()
+    
