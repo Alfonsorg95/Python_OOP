@@ -1,8 +1,8 @@
-# Python_OOP
+# Python OOP and Algorithms
 
 OOP course in python
 
-## Class
+## OOP
 
 - Abstraction
 - Decomposition
